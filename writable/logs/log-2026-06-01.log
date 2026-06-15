@@ -1,0 +1,72 @@
+CRITICAL - 2026-06-01 12:01:23 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 12:01:34 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 12:08:51 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 12:09:57 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 12:09:59 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 12:10:00 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\datatest\app\Controllers\Home.php on line 10
+[Method: GET, Route: /]
+in SYSTEMPATH\Common.php on line 1242.
+ 1 APPPATH\Controllers\Home.php(10): view('welcome_message', 'http://localhost:8080/datatest/public/')
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 15:42:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "templates/header.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/header.php')
+ 2 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

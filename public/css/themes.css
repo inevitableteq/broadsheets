@@ -1,0 +1,136 @@
+/*
+ * Custom Theme Formatting File for Bootstrap 5.3 + CodeIgniter 4
+ * Put this file in: public/css/theme.css
+ */
+
+/* ==========================================================
+   1. Base & Sticky Footer Layout
+   ========================================================== */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa; /* Subtle light background tint */
+    color: #212529;
+}
+
+/* Forces main container to take up empty space, locking footer to bottom */
+.main-content {
+    flex: 1 0 auto;
+}
+
+/* ==========================================================
+   2. Header & Two-Side Logo Navbar Styling
+   ========================================================== */
+.site-header .navbar {
+    border-bottom: 3px solid #0d6efd; /* Blue brand primary accent line */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.site-header .brand-logo {
+    max-height: 40px; /* Forces uniform height constraint on injected logos */
+    width: auto;
+    object-fit: contain;
+}
+
+.site-header .brand-text {
+    font-weight: 700;
+    font-size: 1.15rem;
+    letter-spacing: 0.5px;
+}
+
+/* Center and accent navigation links */
+.site-header .navbar-nav .nav-link {
+    font-weight: 500;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.site-header .navbar-nav .nav-link:hover,
+.site-header .navbar-nav .nav-link.active {
+    color: #0d6efd !important; /* Changes text to link color on hover */
+}
+
+/* Dropdown styling adjustments */
+.site-header .dropdown-menu {
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 10px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.site-header .dropdown-item {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.95rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.site-header .dropdown-item:hover {
+    background-color: #0d6efd;
+    color: #ffffff !important;
+}
+
+/* ==========================================================
+   3. Custom Footer Interface Details
+   ========================================================== */
+.site-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.site-footer .footer-heading {
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.site-footer .footer-links li {
+    margin-bottom: 0.65rem;
+}
+
+.site-footer .footer-links a {
+    transition: color 0.2s ease-in-out, padding-left 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.site-footer .footer-links a:hover {
+    color: #0d6efd !important;
+    padding-left: 5px; /* Subtle modern hover slide effect */
+}
+
+.site-footer hr {
+    opacity: 0.2;
+}
+.carousel-hero-img {
+    height: 500px;
+    object-fit: cover; /* Prevents stretching on ultra-wide monitors */
+    background-color: #212529;
+}
+
+/* Make slide overlay panels look incredibly crisp */
+.carousel-caption {
+    bottom: 10%;
+    backdrop-filter: blur(5px); /* Elegant modern glassmorphism blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive Card Elevation animation on features section */
+.transition-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.125)!important;
+}
+
+/* Adjust Carousel heights for mobile compatibility profiles */
+@media (max-width: 768px) {
+    .carousel-hero-img {
+        height: 320px;
+    }
+}
